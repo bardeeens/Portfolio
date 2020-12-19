@@ -1,0 +1,36 @@
+
+         body {
+            background-image: url(pychedelicbanner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-color: #1c283a; */
+            /* border: 15px solid rgb(106, 183, 197); */
+        }
+        .my-background {
+            border: 5px solid rgb(58, 59, 59);
+            background-color: rgb(191, 187, 208);
+            border-radius: 2%;
+            margin-top: 1%;
+        }
+
+      .mynavclass {
+          /* background-color: gray; */
+          display: inline-block;
+      }
+        
+      .about-me {
+            font-family: 'Heebo';
+            font-size: 30px;   
+            /* background-color: aliceblue;  */
+        }
+
+        .img {
+            width: 100%;
+            height: auto;
+            border-radius: 3%;
+            margin: 1%;
+        }
+
+        /* .banner { */
+            /* width: fit-content; */
+        /* } */
