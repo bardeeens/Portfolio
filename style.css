@@ -1,22 +1,38 @@
 
          body {
-            background-image: url(pychedelicbanner.jpg);
+            background-image: url(Images/pychedelicbanner.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             /* background-color: #1c283a; */
             /* border: 15px solid rgb(106, 183, 197); */
         }
-        .my-background {
-            border: 5px solid rgb(58, 59, 59);
-            background-color: rgb(191, 187, 208);
+
+        .mynavclass {
+            /* background-color: gray; */
+            display: inline-block;
+        }
+
+        .my-container {
+            /* border: 5px solid rgb(58, 59, 59); */
             border-radius: 2%;
             margin-top: 1%;
         }
 
-      .mynavclass {
-          /* background-color: gray; */
-          display: inline-block;
-      }
+        .my-row {
+            /* border: 2px solid green; */
+        }
+
+        .my-col {
+            /* border: 2px solid orange; */
+            /* background-color: purple; */
+            margin-top: 2%;
+        }
+
+        .main-col {
+            background-color: beige;
+            border-radius: 1%;
+        }
+
         
       .about-me {
             font-family: 'Heebo';
@@ -24,11 +40,21 @@
             /* background-color: aliceblue;  */
         }
 
-        .img {
-            width: 100%;
+        .my-img {
+            width: 105%;
             height: auto;
             border-radius: 3%;
             margin: 1%;
+        }
+
+        .main-img {
+            width: 50%;
+            height: auto;
+            border-radius: 3%;
+            margin: 2%
+                }
+        .myfloatleft {
+            float: left;
         }
 
         /* .banner { */
