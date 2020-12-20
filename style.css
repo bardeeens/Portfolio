@@ -29,8 +29,10 @@
         }
 
         .main-col {
-            background-color: beige;
+            background-color: white;
             border-radius: 1%;
+            padding: 1%;
+            margin: 1%;
         }
 
         
@@ -55,6 +57,21 @@
                 }
         .myfloatleft {
             float: left;
+        }
+
+        .mycard {
+            padding-right: 10%;
+            padding-left: 5%;
+            margin-top: 3%;
+            border-radius: 3%;
+        }
+
+        .my-contact {
+            color: rgb(55, 160, 125);
+        }
+
+        .my-button {
+            background-color: rgb(55, 160, 125);
         }
 
         /* .banner { */
