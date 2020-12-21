@@ -30,8 +30,8 @@
 
         .main-col {
             background-color: white;
-            border-radius: 1%;
-            padding: 1%;
+            /* border-radius: 1%; */
+            /* padding: 1%; */
             margin: 1%;
         }
 
@@ -45,8 +45,9 @@
         .my-img {
             width: 105%;
             height: auto;
-            border-radius: 3%;
-            margin: 1%;
+            /* border-radius: 2%; */
+            margin: 0%;
+            border: 2px solid black;
         }
 
         .main-img {
@@ -59,11 +60,12 @@
             float: left;
         }
 
-        .mycard {
+        .my-card {
             padding-right: 10%;
             padding-left: 5%;
             margin-top: 3%;
-            border-radius: 3%;
+            /* border-radius: 1%; */
+            border: 2px solid black;
         }
 
         .my-contact {
@@ -72,6 +74,10 @@
 
         .my-button {
             background-color: rgb(55, 160, 125);
+        }
+        
+        .bodacious {
+            border-radius: 100%;
         }
 
         /* .banner { */
