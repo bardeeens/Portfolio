@@ -1,8 +1,10 @@
 
          body {
-            background-image: url(Images/pychedelicbanner.jpg);
-            background-size: cover;
+            background-image: url(Images/eyebanner.jpg);
+            background-size:cover;
+            background-position-x: right;
             background-repeat: no-repeat;
+            background-color: slategray;
             /* background-color: #1c283a; */
             /* border: 15px solid rgb(106, 183, 197); */
         }
