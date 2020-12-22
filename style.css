@@ -1,9 +1,9 @@
 
          body {
-            background-image: url(Images/eyebanner.jpg);
+            background-image: url(Images/pychedelicbanner.jpg);
             /* background-size:cover; */
             /* background-position-x: right; */
-            background-repeat: repeat-y;
+            background-repeat: repeat;
         }
 
         .my-nav {
@@ -77,8 +77,11 @@
         .bodacious {
             height: 50%;
             width: auto;
-            border-radius: 100%;
-            
+            border-radius: 100%;            
+        }
+
+        .my-footer {
+            text-align: center;
         }
 
         /* .banner { */
