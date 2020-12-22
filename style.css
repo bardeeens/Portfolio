@@ -1,17 +1,13 @@
 
          body {
             background-image: url(Images/eyebanner.jpg);
-            background-size:cover;
-            background-position-x: right;
-            background-repeat: no-repeat;
-            background-color: slategray;
-            /* background-color: #1c283a; */
-            /* border: 15px solid rgb(106, 183, 197); */
+            /* background-size:cover; */
+            /* background-position-x: right; */
+            background-repeat: repeat-y;
         }
 
-        .mynavclass {
-            /* background-color: gray; */
-            display: inline-block;
+        .my-nav {
+            float: inline-end;
         }
 
         .my-container {
@@ -79,7 +75,10 @@
         }
         
         .bodacious {
+            height: 50%;
+            width: auto;
             border-radius: 100%;
+            
         }
 
         /* .banner { */
