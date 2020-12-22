@@ -42,17 +42,17 @@
 
         .my-img {
             width: 105%;
-            height: auto;
-            /* border-radius: 2%; */
-            margin: 0%;
-            border: 2px solid black;
+            /* height: auto; */
+            border-radius: 2%;
+            /* margin: 0%; */
+            /* border: 2px solid black; */
         }
 
         .main-img {
             width: 50%;
-            height: auto;
+            /* height: auto; */
             border-radius: 3%;
-            margin: 2%
+            margin: 1% 3% 3% 0%;;
                 }
         .myfloatleft {
             float: left;
@@ -73,16 +73,16 @@
         .my-button {
             background-color: rgb(55, 160, 125);
         }
-        
-        .bodacious {
-            height: 50%;
-            width: auto;
-            border-radius: 100%;            
-        }
 
         .my-footer {
             text-align: center;
         }
+
+        .my-font {
+            font-family: 'Amatic SC' cursive;
+        }
+
+    
 
         /* .banner { */
             /* width: fit-content; */
