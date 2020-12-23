@@ -1,9 +1,8 @@
 
          body {
             background-image: url(Images/pychedelicbanner.jpg);
-            /* background-size:cover; */
-            /* background-position-x: right; */
             background-repeat: repeat;
+            margin-bottom: 5%;
         }
 
         .my-nav {
@@ -11,58 +10,30 @@
         }
 
         .my-container {
-            /* border: 5px solid rgb(58, 59, 59); */
             border-radius: 2%;
             margin-top: 1%;
-        }
-
-        .my-row {
-            /* border: 2px solid green; */
-        }
+      }
 
         .my-col {
-            /* border: 2px solid orange; */
-            /* background-color: purple; */
             margin-top: 2%;
+            margin-bottom: 2%;
         }
 
-        .main-col {
-            background-color: white;
-            /* border-radius: 1%; */
-            /* padding: 1%; */
-            margin: 1%;
-        }
-
-        
-      .about-me {
-            font-family: 'Heebo';
-            font-size: 30px;   
-            /* background-color: aliceblue;  */
-        }
-
-        .my-img {
+         .my-img {
             width: 105%;
-            /* height: auto; */
             border-radius: 2%;
-            /* margin: 0%; */
-            /* border: 2px solid black; */
         }
 
         .main-img {
             width: 50%;
-            /* height: auto; */
             border-radius: 3%;
             margin: 1% 3% 3% 0%;;
-                }
-        .myfloatleft {
-            float: left;
         }
 
         .my-card {
             padding-right: 10%;
             padding-left: 5%;
             margin-top: 3%;
-            /* border-radius: 1%; */
             border: 2px solid black;
         }
 
@@ -80,12 +51,5 @@
 
         .my-font {
             font-family: 'Amatic SC', cursive;
-            /* font-size: 100%; */
             text-align: center;
         }
-
-    
-
-        /* .banner { */
-            /* width: fit-content; */
-        /* } */
