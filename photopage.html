@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getToKnowMe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Orbitron:wght@900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/confetti.css">
+</head>
+<body>
+   <div class="container">
+       <div class="grid-x">
+           <div class="cell small-12 large-8 centered">
+               <div id="randomButton">Random Photo!</div>
+               <img id="img" src="assets/css/koreanstreet.jpg" alt="random photos">
+            <a href="index.html">goBack</a>
+           </div>
+       </div>
+   </div>
+   <canvas id="canvas"></canvas>
+<div class="copy">
+    <h1>Confetti Cannon</h1>
+    <p>click, drag & release</p>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenLite.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    
+    <script src="assets/js/confetti.js"></script>
+   <script src="assets/js/photogen.js"></script>
+</body>
+</html>

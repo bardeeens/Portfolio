@@ -77,15 +77,11 @@ body {
     /* z-index: -1; */
   }
   
-  @media only screen and (max-width: 600px) {
-    #cardContainer {
-      top: 175px;
-    }
-  }
+  
   
  
 
-/* game timer font */
+
 
 
 
@@ -224,7 +220,19 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   transition: all 0.3s ease;
 }
 
+/* stuff for random photo page */
 
+#randomButton{
+  border: #19547b;
+  background-color: #19547b;
+  color: #fefefe;
+  display: inline;
+  padding: 50px;
+}
+
+#imgDiv {
+  top: 200px;
+}
 
 
 
