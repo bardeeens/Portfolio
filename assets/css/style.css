@@ -243,6 +243,10 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   box-shadow:20px 20px 50px rgba(128, 128, 128, 0.521);
 }
 
+.tiny-list {
+  list-style: none;
+}
+
 
 
 
