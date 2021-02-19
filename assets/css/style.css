@@ -24,6 +24,7 @@ body {
   text-align: center;
   margin-left: 3px;
   margin-right: 3px;
+  margin: 8px;
 }
 
 .img-div{
@@ -245,6 +246,10 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 .tiny-list {
   list-style: none;
+}
+
+.cash {
+  color: #85bb65;
 }
 
 
